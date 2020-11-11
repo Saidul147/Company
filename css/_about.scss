@@ -1,0 +1,43 @@
+.about{
+	background: #34495E;
+	color:$pri-color;
+}
+.about_line{
+	position: relative;
+	margin-bottom: 20px;
+
+	&:after{
+		position: absolute;
+		content: '';
+		top:115%;
+		left: 0;
+		height:2px;
+		width: 50px;
+		background: $pri-color;
+	}
+}
+.about_list{
+	ul{
+		margin-left:-40px;
+		li{
+			font-size:16px;
+			margin-bottom: 3px;
+			line-height: 1.5;
+
+			// @extend %post;
+
+			&:after{
+				font-size:11px;
+			}
+
+			a{
+				text-decoration: none;
+				color:$pri-color;
+			}
+			i{
+				// vertical-align: middle;
+				margin-right: 3px;
+			}
+		}
+	}
+}

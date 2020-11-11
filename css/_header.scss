@@ -1,0 +1,43 @@
+header{
+	background: #E74C3C;
+	color:$pri-color;
+
+	#navbr{
+		color:#fff;
+
+		&:hover{
+			text-decoration: none;
+		}
+	}
+
+}
+.head-lft{
+	h3{
+		font-size:2rem;
+		margin-top: 5px;
+		margin-bottom: 0;
+	}
+}
+
+.header-rght{
+	ul{
+		text-align: right;
+		li{
+			a{
+				color:$pri-color;
+				padding:15px 10px;
+
+			&:focus{
+					box-shadow: none;
+				}
+
+			&:hover{
+				background: #C0392B;
+				border-radius: 0;
+				color:$pri-color;
+			}
+				
+			}
+		}
+	}
+}

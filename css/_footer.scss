@@ -1,0 +1,11 @@
+
+footer{
+	background: #2C3E50;
+	color:$pri-color;
+	padding: 10px;
+
+	@media screen and (max-width:768px){
+		padding-bottom:40px;
+	}
+
+}

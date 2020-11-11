@@ -1,0 +1,37 @@
+.heading{
+	i{
+		font-size:70px;
+		color:$bg-color;
+		margin-bottom: 15px;
+	}
+}
+.heading_top{
+	margin-bottom: 40px;
+	 position:relative;
+			text-align: center;
+	
+}
+.heading_line{
+	position:relative;
+}
+.heading_line:after{
+				content: '';
+				position: absolute;
+				top:130%;
+				left:50%;
+				background: $bg-color;
+				width:100px;
+				height: 3px;
+				display: block;
+				transform:translate(-50%);
+
+		}
+.heading_bottom{
+	text-align: center;
+
+	.i.fa{
+	color:$bg-color;
+	font-size: 70px;
+	margin-bottom: 15px;
+}
+}

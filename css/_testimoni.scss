@@ -1,0 +1,33 @@
+.testimonial{
+	background-image: url("../img/testimonial-bg.jpg");
+	background-position:  center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
+	z-index: 1;
+	color:$pri-color;
+}
+.testimonial:after{
+	display: block;
+	content: '';
+	position: absolute;
+	background:rgba(52, 73, 94, 0.7);
+	top:0;
+	left: 0;
+	z-index:-1;
+	height: 100%;
+	width:100%;
+}
+.testi_top{
+	text-align: center;
+	margin-bottom: 50px;
+	h2{
+		position:relative;
+	}
+}
+.testi_bottom{
+	img{
+		border-radius: 50%;
+		margin-bottom: 5px;
+	}
+}
